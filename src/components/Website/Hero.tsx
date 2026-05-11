@@ -12,11 +12,11 @@ const Hero = () => {
           <p style={{ fontSize: '18px', color: 'var(--text-muted)', marginBottom: '40px', maxWidth: '500px' }}>
             We've helped 3,00,000+ families embrace the joy of parenthood. With a 75% success rate and 39+ years of excellence, we're with you at every step.
           </p>
-          <div className="hero-buttons" style={{ display: 'flex', gap: '20px', flexWrap: 'wrap' }}>
+          <div className="hero-buttons" style={{ display: 'flex', gap: '20px', flexWrap: 'wrap', marginTop: '40px' }}>
             <Link href="/appointment">
-              <button className="btn-primary" style={{ padding: '15px 40px', fontSize: '18px' }}>Start Your Journey</button>
+              <button className="btn-primary" style={{ minWidth: '220px' }}>Start Your Journey</button>
             </Link>
-            <a href="https://wa.me/919962700000" target="_blank" rel="noopener noreferrer" className="btn-secondary" style={{ padding: '15px 40px', fontSize: '18px', display: 'flex', alignItems: 'center', gap: '10px', border: '2px solid var(--secondary)', color: 'var(--secondary)', borderRadius: 'var(--radius)', fontWeight: 600 }}>
+            <a href="https://wa.me/919962700000" target="_blank" rel="noopener noreferrer" className="btn-secondary" style={{ minWidth: '220px' }}>
               <span>💬</span> WhatsApp Us
             </a>
           </div>

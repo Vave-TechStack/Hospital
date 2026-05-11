@@ -26,7 +26,7 @@ const Navbar = () => {
           <Link href="/contact" onClick={() => setIsOpen(false)}>Contact</Link>
           <div style={{ display: 'flex', gap: '15px', alignItems: 'center' }}>
             <Link href="/login" style={{ fontSize: '14px', color: 'var(--text-muted)' }} onClick={() => setIsOpen(false)}>CRM</Link>
-            <Link href="/appointment" className="btn-primary" style={{ padding: '10px 25px', fontSize: '15px', boxShadow: '0 4px 15px rgba(209, 77, 114, 0.4)' }} onClick={() => setIsOpen(false)}>Book Appointment</Link>
+            <Link href="/appointment" className="btn-primary" style={{ boxShadow: '0 4px 15px rgba(209, 77, 114, 0.4)' }} onClick={() => setIsOpen(false)}>Book Appointment</Link>
           </div>
         </div>
       </div>
