@@ -1,35 +1,29 @@
 # Vave Fertility Center & CRM - Premium Healthcare Demo
 
-A high-end, production-ready demo website and CRM system designed specifically for fertility centers in Andhra Pradesh (AP) and Telangana (TS). This project showcases a seamless integration between a patient-facing website and a robust administrative backend.
+A high-end, production-ready demo website and CRM system designed specifically for fertility centers in Andhra Pradesh (AP) and Telangana (TS).
 
 ## 🌟 Key Features
 
 ### 🏢 Premium Patient Website
-- **High-End Aesthetics**: Built with a curated color palette (Soft Pink, Deep Teal, Gold) and premium typography (Outfit, Playfair Display).
-- **Premium Appointment Wizard**: A guided 3-step booking experience with visual treatment selection, interactive time slots, and instant summaries.
-- **WhatsApp Integration**: Direct "Quick Book" integration via WhatsApp for high conversion in the Indian market.
-- **Service Pages**: Detailed breakdowns of IVF, IUI, ICSI, and Egg Freezing procedures.
-- **Full Responsiveness**: Optimized for mobile, tablet, and desktop with a functional hamburger menu.
-- **SEO Optimized**: Pre-configured metadata and semantic HTML for medical search engine rankings.
+- **High-End Aesthetics**: Built with a curated color palette (Soft Pink, Deep Teal, Gold).
+- **Premium Appointment Wizard**: A guided 3-step booking experience with visual treatment selection.
+- **WhatsApp Integration**: Direct "Quick Book" integration via WhatsApp.
+- **Full Responsiveness**: Optimized for mobile, tablet, and desktop.
 
 ### 📊 Administrative CRM Dashboard
-- **Secure Access**: Simulated professional login flow for clinic administrators and doctors.
-- **Dashboard Overview**: Real-time stats on appointments, new patients, and success metrics.
-- **Leads Management**: Track website inquiries with source attribution and conversion status tracking.
-- **Patient Records**: Digital storage for patient history and treatment tracking.
-- **Analytics & Reports**: Visual tracking of success rates, monthly growth, and lead source trends.
+- **Secure Access**: Simulated professional login flow at `/login`.
+- **Integrated API**: Built-in Next.js Route Handlers for Dashboard, Appointments, and Patient data.
+- **Analytics & Reports**: Visual tracking of success rates and growth metrics.
 
 ## 🚀 Deployment (Vercel)
 
-This project is optimized for **Vave-style one-click deployment** on Vercel.
+This project is now **optimized for one-click deployment** on Vercel.
 
 1. **Connect your GitHub repository** to Vercel.
-2. **Root Directory**: Set the root directory to `frontend`.
-3. **Build Command**: `npm run build`
-4. **Output Directory**: `.next`
-5. **Framework Preset**: Next.js
+2. Vercel will automatically detect the Next.js project in the root.
+3. Click **Deploy**.
 
-The backend APIs are now integrated as **Next.js Route Handlers** (`src/app/api/...`), so you don't need a separate server to run the CRM functionalities!
+The backend APIs are integrated as **Next.js Route Handlers** (`src/app/api/...`), so no separate server is needed!
 
 ## 🛠️ Tech Stack
 
@@ -40,15 +34,15 @@ The backend APIs are now integrated as **Next.js Route Handlers** (`src/app/api/
 
 ## 🚀 Local Development
 
-1. **Clone the repository**:
+1. **Clone & Install**:
    ```bash
    git clone https://github.com/Vave-TechStack/Hospitel.git
-   cd Hospitel/frontend
+   cd Hospitel
+   npm install
    ```
 
-2. **Install & Run**:
+2. **Run Development Server**:
    ```bash
-   npm install
    npm run dev
    ```
 
