@@ -19,45 +19,38 @@ A high-end, production-ready demo website and CRM system designed specifically f
 - **Patient Records**: Digital storage for patient history and treatment tracking.
 - **Analytics & Reports**: Visual tracking of success rates, monthly growth, and lead source trends.
 
+## 🚀 Deployment (Vercel)
+
+This project is optimized for **Vave-style one-click deployment** on Vercel.
+
+1. **Connect your GitHub repository** to Vercel.
+2. **Root Directory**: Set the root directory to `frontend`.
+3. **Build Command**: `npm run build`
+4. **Output Directory**: `.next`
+5. **Framework Preset**: Next.js
+
+The backend APIs are now integrated as **Next.js Route Handlers** (`src/app/api/...`), so you don't need a separate server to run the CRM functionalities!
+
 ## 🛠️ Tech Stack
 
-- **Frontend**: Next.js 15 (App Router), TypeScript, Vanilla CSS (Premium Design System).
-- **Backend**: Node.js, Express, CORS, Dotenv.
-- **Design**: Modern UI/UX with Glassmorphism, subtle micro-animations, and responsive layouts.
+- **Framework**: Next.js 15 (App Router)
+- **API**: Integrated Next.js Route Handlers (Serverless)
+- **Design**: Premium CSS Design System (Vanilla CSS)
+- **Deployment**: Vercel Optimized
 
-## 🚀 Getting Started
-
-### Prerequisites
-- Node.js (v18 or higher)
-- npm or yarn
-
-### Installation
+## 🚀 Local Development
 
 1. **Clone the repository**:
    ```bash
    git clone https://github.com/Vave-TechStack/Hospitel.git
-   cd Hospitel
+   cd Hospitel/frontend
    ```
 
-2. **Setup Frontend**:
+2. **Install & Run**:
    ```bash
-   cd frontend
    npm install
    npm run dev
    ```
-
-3. **Setup Backend**:
-   ```bash
-   cd ../backend
-   npm install
-   npm run dev
-   ```
-
-## 📈 Demo Usage
-
-- **Website**: Accessible at `http://localhost:3000`
-- **CRM Login**: Visit `http://localhost:3000/login`
-  - *Default Login (Simulation): admin@vave.com / any password*
 
 ---
 
