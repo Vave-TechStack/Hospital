@@ -1,23 +1,43 @@
 const services = [
   {
     title: 'IVF Treatment',
-    description: 'In-Vitro Fertilization (IVF) is the most effective form of assisted reproductive technology.',
-    icon: '🧬'
+    description: 'In Vitro Fertilisation (IVF) is the most successful assisted reproductive technology for many couples.',
+    icon: '🧪'
   },
   {
     title: 'IUI Procedure',
-    description: 'Intrauterine Insemination (IUI) is a simple fertility treatment that places sperm inside a woman’s uterus.',
-    icon: '✨'
-  },
-  {
-    title: 'Egg Freezing',
-    description: 'Preserve your fertility for the future with our state-of-the-art cryopreservation technology.',
-    icon: '❄️'
+    description: 'Intrauterine Insemination (IUI) is a less invasive fertility treatment placed directly into the uterus.',
+    icon: '💉'
   },
   {
     title: 'ICSI Treatment',
-    description: 'Intracytoplasmic Sperm Injection (ICSI) is used to help with male infertility factors.',
+    description: 'An advanced IVF technique where a single sperm is directly injected into an egg for better results.',
     icon: '🔬'
+  },
+  {
+    title: 'Egg Donation',
+    description: 'Helping women achieve pregnancy using eggs from carefully screened and genetic-tested donors.',
+    icon: '🥚'
+  },
+  {
+    title: 'Azoospermia',
+    description: 'Advanced surgical sperm retrieval techniques to help men father biological children.',
+    icon: '👨‍⚕️'
+  },
+  {
+    title: 'Ovulation Induction',
+    description: 'Uses medications to stimulate ovaries for women who do not ovulate regularly.',
+    icon: '🧬'
+  },
+  {
+    title: 'Surgical Procedures',
+    description: 'Expert hysteroscopy, laparoscopy, and fibroid removal by experienced surgeons.',
+    icon: '🏥'
+  },
+  {
+    title: 'RPL Treatment',
+    description: 'Specialized care and targeted treatment for couples experiencing recurrent pregnancy loss.',
+    icon: '❤️'
   }
 ];
 
