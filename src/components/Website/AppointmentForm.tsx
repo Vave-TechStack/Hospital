@@ -55,7 +55,7 @@ const AppointmentForm = () => {
   return (
     <section className="section-padding" id="appointment-section">
       <div className="container">
-        <div className="card" style={{ maxWidth: '800px', margin: '0 auto', padding: '40px' }}>
+        <div className="card appointment-card" style={{ maxWidth: '800px', margin: '0 auto' }}>
           {/* Progress Indicator */}
           <div style={{ display: 'flex', justifyContent: 'space-between', marginBottom: '40px', position: 'relative' }}>
             <div style={{ position: 'absolute', top: '15px', left: '0', width: '100%', height: '2px', backgroundColor: '#eee', zIndex: 1 }}></div>
@@ -81,7 +81,7 @@ const AppointmentForm = () => {
           </div>
 
           <div style={{ textAlign: 'center', marginBottom: '30px' }}>
-            <h2 style={{ fontSize: '32px' }}>
+            <h2 style={{ fontSize: 'clamp(24px, 5vw, 32px)' }}>
               {step === 1 && "Select Treatment"}
               {step === 2 && "Select Date & Time"}
               {step === 3 && "Finalize Booking"}
@@ -127,7 +127,7 @@ const AppointmentForm = () => {
                 />
               </div>
               <label style={{ display: 'block', marginBottom: '15px', fontWeight: 600 }}>Preferred Time Slot</label>
-              <div style={{ display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gap: '15px' }}>
+              <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(100px, 1fr))', gap: '15px' }}>
                 {timeSlots.map((time) => (
                   <div 
                     key={time}
@@ -139,7 +139,8 @@ const AppointmentForm = () => {
                       border: formData.time === time ? '2px solid var(--primary)' : '1px solid #eee',
                       cursor: 'pointer',
                       backgroundColor: formData.time === time ? '#fff5f7' : 'white',
-                      fontWeight: formData.time === time ? 700 : 400
+                      fontWeight: formData.time === time ? 700 : 400,
+                      fontSize: '14px'
                     }}
                   >
                     {time}
@@ -238,6 +239,16 @@ const AppointmentForm = () => {
             </a>
           </div>
         </div>
+        <style jsx>{`
+          .appointment-card {
+            padding: 40px;
+          }
+          @media (max-width: 768px) {
+            .appointment-card {
+              padding: 20px;
+            }
+          }
+        `}</style>
       </div>
     </section>
   );

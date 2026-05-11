@@ -39,7 +39,7 @@ const Promise = () => {
       <div className="container">
         <div style={{ textAlign: 'center', marginBottom: '60px' }}>
           <div className="badge" style={{ marginBottom: '15px' }}>Our Commitment</div>
-          <h2 style={{ fontSize: '42px', marginBottom: '15px', fontFamily: "'Playfair Display', serif" }}>The Vave Promise</h2>
+          <h2 style={{ fontSize: 'clamp(28px, 5vw, 42px)', marginBottom: '15px', fontFamily: "'Playfair Display', serif" }}>The Vave Promise</h2>
           <p style={{ color: 'var(--text-muted)', fontSize: '18px' }}>Six principles that guide every decision we make for you</p>
         </div>
 

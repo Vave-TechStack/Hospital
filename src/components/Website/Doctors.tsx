@@ -32,7 +32,7 @@ const Doctors = () => {
     <section className="section-padding" style={{ backgroundColor: '#f9f9f9' }}>
       <div className="container">
         <div style={{ textAlign: 'center', marginBottom: '60px' }}>
-          <h2 style={{ fontSize: '42px', marginBottom: '15px', fontFamily: "'Playfair Display', serif" }}>Meet Our Specialists</h2>
+          <h2 style={{ fontSize: 'clamp(28px, 5vw, 42px)', marginBottom: '15px', fontFamily: "'Playfair Display', serif" }}>Meet Our Specialists</h2>
           <p style={{ color: 'var(--text-muted)', fontSize: '18px' }}>India's most experienced fertility doctors</p>
         </div>
 

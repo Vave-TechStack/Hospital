@@ -6,11 +6,11 @@ const Finance = () => {
       <div className="container">
         <div className="grid-2 grid-gap-60" style={{ alignItems: 'center' }}>
           <div>
-            <h2 style={{ fontSize: '42px', marginBottom: '20px', fontFamily: "'Playfair Display', serif", color: 'white' }}>Don't let cost come between you and your baby.</h2>
-            <p style={{ fontSize: '18px', color: 'rgba(255, 255, 255, 0.9)', marginBottom: '30px' }}>
+            <h2 style={{ fontSize: 'clamp(28px, 5vw, 42px)', marginBottom: '20px', fontFamily: "'Playfair Display', serif", color: 'white' }}>Don't let cost come between you and your baby.</h2>
+            <p style={{ fontSize: 'clamp(16px, 4vw, 18px)', color: 'rgba(255, 255, 255, 0.9)', marginBottom: '30px' }}>
               We provide flexible EMI options and 0% interest finance to make your parenthood journey stress-free.
             </p>
-            <div style={{ display: 'flex', gap: '30px' }}>
+            <div style={{ display: 'flex', gap: '30px', flexWrap: 'wrap' }}>
               <div>
                 <div style={{ fontSize: '32px', fontWeight: 700, color: 'var(--primary-light)' }}>₹8,333/mo</div>
                 <div style={{ fontSize: '14px', opacity: 0.8 }}>Starting EMI</div>

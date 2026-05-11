@@ -6,7 +6,7 @@ const Hero = () => {
       <div className="container grid-2 hero-grid grid-gap-60" style={{ alignItems: 'center' }}>
         <div className="animate-fade-in">
           <div className="badge" style={{ marginBottom: '20px', fontSize: '14px', color: 'var(--primary)', fontWeight: 600 }}>✨ India's Most Trusted Fertility Network</div>
-          <h1 style={{ fontSize: '56px', lineHeight: '1.2', marginBottom: '24px' }}>
+          <h1 style={{ fontSize: 'clamp(32px, 8vw, 56px)', lineHeight: '1.2', marginBottom: '24px' }}>
             The journey to being called <span style={{ color: 'var(--primary)' }}>'Amma'</span> starts here.
           </h1>
           <p style={{ fontSize: '18px', color: 'var(--text-muted)', marginBottom: '40px', maxWidth: '500px' }}>

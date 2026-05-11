@@ -29,7 +29,7 @@ const Infrastructure = () => {
       <div className="container">
         <div style={{ textAlign: 'center', marginBottom: '60px' }}>
           <div className="badge" style={{ marginBottom: '15px', backgroundColor: 'rgba(255,255,255,0.1)', color: 'white' }}>World-Class Infrastructure</div>
-          <h2 style={{ fontSize: '42px', marginBottom: '15px', fontFamily: "'Playfair Display', serif", color: 'white' }}>International Standard Labs</h2>
+          <h2 style={{ fontSize: 'clamp(28px, 5vw, 42px)', marginBottom: '15px', fontFamily: "'Playfair Display', serif", color: 'white' }}>International Standard Labs</h2>
           <p style={{ opacity: 0.8, fontSize: '18px' }}>Every embryo is treated with the highest level of care using global technology</p>
         </div>
 
