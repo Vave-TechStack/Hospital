@@ -2,6 +2,9 @@ import { Metadata } from 'next';
 import Navbar from '@/components/Website/Navbar';
 import Hero from '@/components/Website/Hero';
 import Services from '@/components/Website/Services';
+import Journey from '@/components/Website/Journey';
+import Doctors from '@/components/Website/Doctors';
+import Finance from '@/components/Website/Finance';
 import AppointmentForm from '@/components/Website/AppointmentForm';
 import Footer from '@/components/Website/Footer';
 
