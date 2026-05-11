@@ -19,7 +19,9 @@ const Navbar = () => {
 
         <div className={`nav-links ${isOpen ? 'open' : ''}`}>
           <Link href="/" onClick={() => setIsOpen(false)}>Home</Link>
-          <Link href="/services" onClick={() => setIsOpen(false)}>Services</Link>
+          <Link href="/services" onClick={() => setIsOpen(false)}>Treatments</Link>
+          <Link href="/centers" onClick={() => setIsOpen(false)}>Centers</Link>
+          <Link href="/cost" onClick={() => setIsOpen(false)}>IVF Cost</Link>
           <Link href="/about" onClick={() => setIsOpen(false)}>About Us</Link>
           <Link href="/contact" onClick={() => setIsOpen(false)}>Contact</Link>
           <div style={{ display: 'flex', gap: '15px', alignItems: 'center' }}>
