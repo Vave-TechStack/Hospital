@@ -6,8 +6,8 @@ const Finance = () => {
       <div className="container">
         <div className="grid-2 grid-gap-60" style={{ alignItems: 'center' }}>
           <div>
-            <h2 style={{ fontSize: '42px', marginBottom: '20px', fontFamily: "'Playfair Display', serif" }}>Don't let cost come between you and your baby.</h2>
-            <p style={{ fontSize: '18px', opacity: 0.9, marginBottom: '30px' }}>
+            <h2 style={{ fontSize: '42px', marginBottom: '20px', fontFamily: "'Playfair Display', serif", color: 'white' }}>Don't let cost come between you and your baby.</h2>
+            <p style={{ fontSize: '18px', color: 'rgba(255, 255, 255, 0.9)', marginBottom: '30px' }}>
               We provide flexible EMI options and 0% interest finance to make your parenthood journey stress-free.
             </p>
             <div style={{ display: 'flex', gap: '30px' }}>
